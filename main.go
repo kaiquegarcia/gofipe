@@ -12,6 +12,8 @@ import (
 	"github.com/kaiquegarcia/gofipe/internal/views/selectversion"
 )
 
+//go:generate go-winres make
+
 func main() {
 	// clients
 	httpClient := http.DefaultClient
